@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Adriano's Portfolio</title>
 </head>
 <body>
@@ -11,34 +13,104 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#my_project">my project</a>
+                    <a href="#my_project">My Project</a>
                 </li>
-                <li>about</li>
-                <li>contact</li>
+                <li>
+                    <a href="#about">About</a> 
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <div class="hero">
-        <img src="./assets/download.jpg" alt="">
-    </div>
+    <hero class="hero"></hero>
     <main>
-        <section>
-            <h2>about</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt sequi repudiandae eveniet obcaecati sint distinctio. Impedit ab in blanditiis corporis veniam nobis illo ullam molestias dolorum alias! Qui, quasi.</p>
+        <section id="about">
+            <h2>About</h2>
+            <p>Hi my name is Adriano! I'm 9 years old, and I am learning coding with Kali Blackstorm.
+            I wanted to code beacause I want to make money, and I thought it would be fun to make new things. Thank you for seeing this website bye!</p>
         </section>
         <section>
-            <h2 id="my_project">my project</h2>
-            <h3>password generator</h3>
-            <p>javascript</p>
+            <div id="my_project">
+                <h2>my project</h2>
+            </div>
+            <div class="card" id="first_project">
+                <div class="text_box">
+                    <h3>password generator</h3>
+                    <p>javascript</p>
+                </div>    
+            </div>
+            <div class="projects">
+                <div class="row">
+                    <div class="column">
+                        <div class="card photo">
+                            <div class="text_box">
+                                <h3>project</h3>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card photo">
+                            <div class="text_box">
+                                <h3>project</h3>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="card photo">
+                            <div class="text_box">
+                                <h3>project</h3>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card photo">
+                            <div class="text_box">
+                                <h3>project</h3>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="card photo">
+                            <div class="text_box">
+                                <h3>project</h3>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card photo">
+                            <div class="text_box">
+                                <h3>project</h3>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>contact</h2>
+        <section id="contact">
+            <h2>Contact</h2>
             <ul>
-                <li>phone</li>
-                <li>email</li>
-                <li>github</li>
+                <li class="card_contact">email</li>
+                <li class="card_contact">phone</li>
+                <li class="card_contact">github</li>
+                <li class="card_contact">linkedin</li>
             </ul>
         </section>
+
     </main>
+    <footer>
+        <h4>© 2023 Adriano's Portfolio. All rights reserved</h4>
+    </footer>
 </body>
 </html>
